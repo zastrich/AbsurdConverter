@@ -1,7 +1,7 @@
 
 ## Projeto desenvolvido para o aprendizado do NextJS
 
-[![Awesome Badges](https://img.shields.io/badge/learning-nextjs-green.svg)](https://nextjs.org/) [![Awesome Badges](https://img.shields.io/badge/by-zastrich-red.svg)](https://nextjs.org/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![Awesome Badges](https://img.shields.io/badge/learning-nextjs-green.svg)](https://nextjs.org/) [![Awesome Badges](https://img.shields.io/badge/by-zastrich-red.svg)](https://code200.com.br/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 
 > É livre a colaboração nesse projeto.
