@@ -1,62 +1,52 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import Header from './../components/header'
+
+//Pallete: https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
 
 export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Absurd Converter</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    return (
+        <div className="container">
+            <Head>
+                <title>Absurd Converter</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
 
-      <main>
-        <a href="/distances">DISTANCES</a>
-      </main>
+            <main>
+                <Header />
+                <Link href="/distances"><a>this page!</a></Link>
+            </main>
 
-      <footer>
-        
-      </footer>
+            <footer>
 
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
+            </footer>
 
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
+            <style jsx>{`
+                .container {
+                    width: 100%;
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
 
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-    
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
+                main {
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
 
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
-  )
+                @media (max-width: 600px) {
+                    .grid {
+                        width: 100%;
+                        flex-direction: column;
+                    }
+                }
+            `}</style>
+        </div>
+    )
 }

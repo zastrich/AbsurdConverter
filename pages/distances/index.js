@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from './../../components/header'
 
 export default function Distances() {
     return (
@@ -7,6 +8,7 @@ export default function Distances() {
                 <title>Distance</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <Header />
             <h1>Distances</h1>
         </div>
     )
