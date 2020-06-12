@@ -1,7 +1,11 @@
 {
-  "name": "learn-starter",
-  "version": "0.1.0",
-  "private": true,
+  "name": "AbsurdConverter",
+  "author": {
+    "name": "Robert Zastrich",
+    "email": "zas@code200.com.br",
+    "url": "https://code200.com.br"
+  },
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
