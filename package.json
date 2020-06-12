@@ -1,5 +1,6 @@
 {
-  "name": "AbsurdConverter",
+  "name": "absurd-converter",
+  "description": "Convert any dimension to absurd random things",
   "author": {
     "name": "Robert Zastrich",
     "email": "zas@code200.com.br",
