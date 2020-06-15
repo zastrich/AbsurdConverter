@@ -1,0 +1,23 @@
+// Seek this steps after update this SCHEMA to generate updates
+// npx prisma migrate save --experimental
+// npx prisma migrate up --experimental
+// npx prisma generate
+
+// Verify SQLITE database
+// npx prisma studio --experimental
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./units.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Units {
+  id    Int    @default(autoincrement()) @id
+  slug  String  @unique
+  name   String
+  unidade   String?
+}

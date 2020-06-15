@@ -1,9 +1,24 @@
+import { PrismaClient } from '@prisma/client'
 import Link from 'next/link'
 import Header from './../components/header'
 
 //Pallete: https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
 
-export default function Home() {
+export async function getStaticProps() {
+    const prisma = new PrismaClient()
+
+    const units = await prisma.units.findMany();
+    
+    return {
+      props: {
+        units
+      }
+    };
+  }
+
+export default ({ units }) => {
+    console.log(units)
+
     return (
         <div className="container">
             <main>
@@ -11,6 +26,7 @@ export default function Home() {
                 <img src={"/brand/logo-absurd.svg"} className="logo" />
             </main>
 
+            
             <style jsx>{`
                 .container {
                     width: 100%;
