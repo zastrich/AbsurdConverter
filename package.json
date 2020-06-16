@@ -10,7 +10,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "db-save": "prisma migrate save --experimental",
+    "db-up": "prisma migrate up --experimental",
+    "db-gen": "prisma generate",
+    "db-start": "prisma studio --experimental"
   },
   "dependencies": {
     "@prisma/client": "2.0.0",
