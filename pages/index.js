@@ -6,14 +6,13 @@ import Header from './../components/header'
 
 export async function getStaticProps() {
     const prisma = new PrismaClient()
-
-    const units = await prisma.units.findMany();
+    const units = await prisma.units.findMany()
     
     return {
       props: {
         units
       }
-    };
+    }
   }
 
 export default ({ units }) => {

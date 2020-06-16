@@ -1,7 +1,7 @@
 
 # Projeto desenvolvido para o aprendizado do NextJS e Prisma
 
-[![Awesome Badges](https://img.shields.io/badge/use-nodejs%2012.4.0-339933.svg?logo=Node.js)](https://nodejs.org/) [![Awesome Badges](https://img.shields.io/badge/use-reactjs%2016.13.1-61DAFB.svg?logo=React)](https://reactjs.org/) [![Awesome Badges](https://img.shields.io/badge/use-nextjs%209.3.5-green.svg?logo=Next.js)](https://nextjs.org/) [![Awesome Badges](https://img.shields.io/badge/use-sqlite%204.1-003B57.svg?logo=SQLite)](https://www.sqlite.org/) [![Awesome Badges](https://img.shields.io/badge/use-prisma%202.0.0-1a202c.svg)](https://www.prisma.io/) [![Awesome Badges](https://img.shields.io/badge/by-zastrich-red.svg)](https://code200.com.br/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![Awesome Badges](https://img.shields.io/badge/use-nodejs%2012.4.0-339933.svg?logo=Node.js)](https://nodejs.org/) [![Awesome Badges](https://img.shields.io/badge/use-reactjs%2016.13.1-61DAFB.svg?logo=React)](https://reactjs.org/) [![Awesome Badges](https://img.shields.io/badge/use-nextjs%209.3.5-green.svg?logo=Next.js)](https://nextjs.org/) [![Awesome Badges](https://img.shields.io/badge/use-sqlite%203.1.6-003B57.svg?logo=SQLite)](https://www.sqlite.org/) [![Awesome Badges](https://img.shields.io/badge/use-prisma%202.0.0-1a202c.svg)](https://www.prisma.io/) [![Awesome Badges](https://img.shields.io/badge/by-zastrich-red.svg)](https://code200.com.br/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 
 > É livre a colaboração nesse projeto.
