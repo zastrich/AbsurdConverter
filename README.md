@@ -34,7 +34,7 @@ Após esse comando se tudo correr bem você poderá acessar o link [http://local
 
 ## Contribuir mudando a estrutura ou adicionando novas funcionalidades
 
-Você pode editar o arquivo [/prisma/schema.prisma](/blob/master/prisma/schema.prisma) e adicionar colunas ou novas tabelas ao banco de dados embarcado (SQLite), após essa edição você deverá seguir os seguintes passos:
+Você pode editar o arquivo [/prisma/schema.prisma](/prisma/schema.prisma) e adicionar colunas ou novas tabelas ao banco de dados embarcado (SQLite), após essa edição você deverá seguir os seguintes passos:
 
 Rode esse comando para criar uma migration da alteração:
 
