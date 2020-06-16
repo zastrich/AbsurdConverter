@@ -22,9 +22,9 @@ Rode seu projeto:
 
     yarn dev
 
-> Caso queira contribuir com a base de dados de unidades, você poderá fazer isso a partir do prisma das seguintes formas
+## Caso queira contribuir com a base de dados de unidades, você poderá fazer isso a partir do prisma das seguintes formas
 
-## Contribuir com conteúdo de unidades
+> Contribuir com conteúdo de unidades
 
 Rode 
 
@@ -32,7 +32,7 @@ Rode
 
 Após esse comando se tudo correr bem você poderá acessar o link [http://localhost:5555](http://localhost:5555) e incluir ou editar informações no banco de dados
 
-## Contribuir mudando a estrutura ou adicionando novas funcionalidades
+> Contribuir mudando a estrutura ou adicionando novas funcionalidades
 
 Você pode editar o arquivo [/prisma/schema.prisma](/prisma/schema.prisma) e adicionar colunas ou novas tabelas ao banco de dados embarcado (SQLite), após essa edição você deverá seguir os seguintes passos:
 
